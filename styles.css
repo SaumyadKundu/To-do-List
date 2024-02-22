@@ -9,41 +9,77 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
-}
-
-h1 {
     text-align: center;
 }
 
-input[type="text"] {
-    width: 70%;
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
     padding: 8px;
     margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 button {
-    padding: 8px 15px;
     background-color: #007bff;
     color: #fff;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
+    border: none;
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
-ul {
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Note list */
+#noteList {
     list-style-type: none;
     padding: 0;
 }
 
-li {
+/* Note item */
+.noteItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items and button horizontally */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     margin-bottom: 5px;
 }
 
-.completed {
-    text-decoration: line-through;
-    color: #aaa;
+/* Delete button */
+.deleteButton {
+    width: 50px; /* Set a fixed width */
+    height: 30px; /* Set a fixed height */
+    font-size: 12px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: #c82333;
 }
