@@ -51,27 +51,27 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Note list */
+
 #noteList {
     list-style-type: none;
     padding: 0;
 }
 
-/* Note item */
+
 .noteItem {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Align items and button horizontally */
+    justify-content: space-between;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 5px;
 }
 
-/* Delete button */
+
 .deleteButton {
-    width: 50px; /* Set a fixed width */
-    height: 30px; /* Set a fixed height */
+    width: 50px;
+    height: 30px;
     font-size: 12px;
     background-color: #dc3545;
     color: #fff;
