@@ -1,7 +1,7 @@
 # To-Do-List
 
 ## Introduction
-This project is an authentication system with note-taking functionality built using HTML, CSS, and JavaScript. It allows users to register, sign in, add notes, and sign out. The application provides a secure login mechanism and ensures that each user's notes are stored separately.
+This project is an authentication system with note-taking functionality built using HTML, CSS, and JavaScript. It allows users to register, sign in, add notes, and sign out. The application provides a secure login mechanism and ensures that each user's notes are stored separately. It is designed to be entirely client-side, meaning the account creation process occurs locally in the user's browser.
 
 ## Features
 - User registration: Users can create an account by providing a username and password.
